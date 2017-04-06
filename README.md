@@ -1,5 +1,7 @@
 # easy-weex
 
+This application is inspired by [easy-vue](https://github.com/TIGERB/easy-vue).which is build by **vue + vuex + vue-router**. **easy-weex** is build by **weex + vue + vuex + vue-router**. enjoy it!
+
 > easy-weex
 
 ## getting start

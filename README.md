@@ -11,12 +11,10 @@ npm install
 ## file structure
 
 * `src/*`: all source code
-* `app.js`: entrance of the Weex page
-* `build/*`: some build scripts
+* `src/app.js`: entrance of the Weex page
 * `dist/*`: where places generated code
-* `assets/*`: some assets for Web preview
-* `index.html`: a page with Web preview and qrcode of Weex js bundle
-* `weex.html`: Web render
+* `src/assets/*`: some assets for Web preview
+* `index.html`: Web render
 * `.babelrc`: babel config (preset-2015 by default)
 * `.eslintrc`: eslint config (standard by default)
 
@@ -29,8 +27,8 @@ npm run build
 # build the two js bundles and watch file changes
 npm run dev
 
-# start a Web server at 8080 port
-npm run serve
+# start a Web server at 3000 port
+npm run start
 
 # start weex-devtool for debugging with native
 npm run debug
